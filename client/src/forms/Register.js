@@ -65,6 +65,7 @@ const Register = () => {
         <form className="form" onSubmit={onSubmit}>
           <div className="form-group">
             <input
+              className="form-control"
               type="text"
               placeholder="Name"
               name="name"
@@ -74,6 +75,7 @@ const Register = () => {
           </div>
           <div className="form-group">
             <input
+              className="form-control"
               type="email"
               placeholder="Email Address"
               name="email"
@@ -83,6 +85,7 @@ const Register = () => {
           </div>
           <div className="form-group">
             <input
+              className="form-control"
               type="password"
               placeholder="Password"
               name="password"
@@ -92,6 +95,7 @@ const Register = () => {
           </div>
           <div className="form-group">
             <input
+              className="form-control"
               type="password"
               placeholder="Confirm Password"
               name="password2"
